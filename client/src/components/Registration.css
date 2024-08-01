@@ -1,0 +1,38 @@
+.registration-container {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.registration-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-container input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #444;
+    color: white;
+    width: 300px;
+}
+
+.registration-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background: #007aff;
+    color: white;
+    transition: background 0.3s;
+}
+
+.registration-container button:hover {
+    background: #005bb5;
+}

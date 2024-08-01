@@ -1,0 +1,29 @@
+.product-item {
+    background: #333;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    perspective: 1000px;
+}
+
+.product-item:hover {
+    transform: scale(1.05) rotateY(10deg) rotateX(10deg);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+}
+
+.product-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
